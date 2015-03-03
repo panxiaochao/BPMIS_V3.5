@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background: #f7f7f7 ;
+}
+
+a {
+	text-decoration: none;
+}
+
+#main-content{
+	margin:0 auto;
+	/*border:1px solid black;*/
+	width:900px;
+	height:500px;
+	
+}
+.shortcut-buttons-set {
+	padding: 30px 0;
+	list-style: none;
+}
+
+.shortcut-buttons-set li {
+	padding: 4px 0 4px 20px;
+	float:left;
+}
+
+
+.shortcut-button {
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #ccc;
+	display: block;
+	width: 200px;
+	margin: 0 0 20px 0;
+}
+.shortcut-button:hover{
+	border: 1px solid #003050;
+}
+
+.shortcut-button img{
+	margin-top:10px;
+	margin-left:36px;
+}
+.shortcut-button span {
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	display: block;
+	margin:15px 0;
+	text-align: center;
+	color: #555;
+	font-size: 22px;
+	color: #444;
+	font-family: Tahoma,Geneva,'Heiti SC','Microsoft Yahei','Simsun';
+}
